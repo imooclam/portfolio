@@ -141,3 +141,16 @@ Cards
 .project {
   font-size: 4rem;
 }
+.contact a {
+  font-size: 5rem;
+}
+.contact .link1 {
+  color: #000000;
+}
+.contact .link2 {
+  color: #084fa5;
+}
+.contact a:hover {
+  font-size: 5rem;
+  color: #555;
+}

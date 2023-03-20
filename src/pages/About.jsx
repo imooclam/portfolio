@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { BsGithub, BsLinkedin } from 'react-icons/Bs';
 
 const About = () => {
   return (
@@ -36,6 +37,25 @@ const About = () => {
         <li> Serverless</li>
         <li> Desktop Applications in JavaScript ={`>`} Electron</li>
       </ul>
+      <article className="contact">
+        <h3> Contact Me on </h3>
+        <a
+          href="https://github.com/imooclam"
+          target={'_blank'}
+          className="link1"
+        >
+          {' '}
+          <BsGithub />
+        </a>
+        <a
+          href="https://linkedin.com/in/mahmoud-zyada-1746b2267"
+          target={'_blank'}
+          className="link2"
+        >
+          {' '}
+          <BsLinkedin />
+        </a>
+      </article>
     </section>
   );
 };

@@ -1,6 +1,7 @@
 import { IoLogoJavascript } from 'react-icons/Io';
 import { FaReact } from 'react-icons/Fa';
 import { BsBootstrap } from 'react-icons/Bs';
+import { BsGithub } from 'react-icons/Bs';
 
 export const data = [
   {
