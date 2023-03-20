@@ -1,6 +1,6 @@
-import { SiJavascript } from 'react-icons/Si';
-import { FaReact } from 'react-icons/Fa';
-import { BsBootstrap } from 'react-icons/Bs';
+import { SiJavascript } from 'react-icons/si';
+import { FaReact } from 'react-icons/fs';
+import { BsBootstrap } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/Bs';
 
 export const data = [

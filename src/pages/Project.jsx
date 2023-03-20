@@ -1,7 +1,4 @@
 import { useGlobalContext } from '../GlobalContext';
-import { SiJavascript } from 'react-icons/Si';
-import { FaReact } from 'react-icons/Fa';
-import { BsBootstrap } from 'react-icons/Bs';
 
 const Project = () => {
   const { projects } = useGlobalContext();
