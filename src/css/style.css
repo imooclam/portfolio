@@ -1,0 +1,143 @@
+/* ***************************
+***************************
+
+ 05- CockTail ProJect
+***************************
+*************************** */
+/* 
+====== 
+Navbar
+======
+*/
+.nav__header {
+  background: var(--white);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid var(--clr-grey-6);
+  box-shadow: var(--lightShadow);
+  padding: 4rem;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: var(--smallWidth);
+  margin: 0 auto;
+  max-width: var(--fullWidth);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.navbar__item a {
+  text-transform: capitalize;
+  /* display: inline-block; */
+  font-weight: bold;
+  margin-right: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 3rem;
+  padding: 0.25rem 0.5rem;
+  transition: var(--mainTransition);
+  color: #555;
+}
+.navbar__item a:hover {
+  color: var(--clr-grey-6);
+}
+.logo {
+  width: 20rem;
+
+  display: block;
+  height: auto;
+}
+/* 
+====== 
+About Page
+======
+*/
+
+.about__page {
+  padding: 20rem 0;
+  text-align: center;
+  font-weight: 700;
+}
+.about__page h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.about__page p {
+  font-size: 3rem;
+  padding: 2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #666;
+  margin: 0 auto;
+}
+.menu {
+  font-size: 2rem;
+}
+/* 
+====== 
+Error Page
+======
+*/
+.Error {
+  padding: 20rem 0;
+  text-align: center;
+  font-weight: 700;
+}
+.Error a {
+  font-size: 3rem;
+  padding: 1rem 3rem;
+  margin-top: 5rem;
+  text-transform: uppercase;
+  background-color: var(--mainRed);
+  transition: all 0.3s ease-in;
+}
+.Error a:hover {
+  background-color: rgb(252, 79, 79);
+  color: black;
+}
+/* 
+====== 
+Cards
+======
+*/
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  align-items: center;
+  gap: 10rem;
+  margin: 5rem 0;
+}
+.card .link {
+  box-shadow: 0px 0px 15px 1px rgba(51, 51, 51, 0.204);
+}
+.card .img {
+  display: block;
+
+  height: 20rem;
+  object-fit: contain;
+}
+.card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 2rem;
+  background-color: rgb(184, 199, 173);
+}
+.card__footer p:first-child {
+  font-size: 1.6rem;
+  color: #555;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.card__footer p:nth-child(2) {
+  font-size: 2rem;
+  color: rgb(96, 99, 36);
+}
+.project {
+  font-size: 4rem;
+}
