@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom';
 import { BsGithub, BsLinkedin } from 'react-icons/Bs';
+import { SiJavascript } from 'react-icons/Si';
+import { FaReact } from 'react-icons/Fa';
+import { BsBootstrap } from 'react-icons/Bs';
 
 const About = () => {
   return (
