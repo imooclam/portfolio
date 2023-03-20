@@ -1,4 +1,4 @@
-import { IoLogoJavascript } from 'react-icons/Io';
+import { SiJavascript } from 'react-icons/Si';
 import { FaReact } from 'react-icons/Fa';
 import { BsBootstrap } from 'react-icons/Bs';
 import { BsGithub } from 'react-icons/Bs';
@@ -9,7 +9,7 @@ export const data = [
     img: 'omifood-app.png',
     link: 'https://omifood-app.netlify.app/',
     name: 'omifood',
-    icon: <IoLogoJavascript />,
+    icon: <SiJavascript />,
   },
   {
     id: 2,
@@ -51,14 +51,14 @@ export const data = [
     img: 'time-zoneExercise.PNG',
     link: 'https://time-zone-js.netlify.app/',
     name: 'Time-zone',
-    icon: <IoLogoJavascript />,
+    icon: <SiJavascript />,
   },
   {
     id: 8,
     img: 'Dad-jokes.PNG',
     link: 'https://dad-joke-app-ajax.netlify.app/',
     name: 'Dad-jokes(Ajax)',
-    icon: <IoLogoJavascript />,
+    icon: <SiJavascript />,
   },
   {
     id: 9,
