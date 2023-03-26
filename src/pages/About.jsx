@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom';
-import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import React from 'react';
+
+import { AiFillGithub } from 'react-icons/ai';
+import { ImLinkedin } from 'react-icons/im';
 
 const About = () => {
   return (
@@ -17,7 +20,7 @@ const About = () => {
         </strong>
         <li>Skills</li>
         <li> - Html Css JavaScript</li>
-        <li> - BootStrap && BULMA</li>
+        <li> - BootStrap && (BULMA Css)</li>
         <li> - Git&&Github</li>
         <li> - React&&Redux</li>
         <li> - i also know some staff :</li>
@@ -45,7 +48,7 @@ const About = () => {
           className="link1"
         >
           {' '}
-          <BsGithub />
+          <AiFillGithub />
         </a>
         <a
           href="https://linkedin.com/in/mahmoud-zyada-1746b2267"
@@ -53,7 +56,7 @@ const About = () => {
           className="link2"
         >
           {' '}
-          <BsLinkedin />
+          <ImLinkedin />
         </a>
       </article>
     </section>

@@ -1,8 +1,4 @@
-// import { SiJavascript } from 'react-icons/si';
-// import { FaReact } from 'react-icons/fs';
-// import { BsBootstrap } from 'react-icons/bs';
-// import { BsGithub } from 'react-icons/Bs';
-
+import React from 'react';
 export const data = [
   {
     id: 1,
@@ -13,9 +9,9 @@ export const data = [
   },
   {
     id: 2,
-    img: 'signature.PNG',
-    link: 'https://signature-app.netlify.app/',
-    name: 'signature-app',
+    img: 'immer.PNG',
+    link: 'https://counter-immer.netlify.app/',
+    name: 'Counter (Reduce && immer)',
     icon: 'React',
   },
   {
@@ -62,9 +58,18 @@ export const data = [
   },
   {
     id: 9,
-    img: 'immer.PNG',
-    link: 'https://counter-immer.netlify.app/',
-    name: 'Counter (Reduce && immer)',
+
+    img: 'signature.PNG',
+    link: 'https://signature-app.netlify.app/',
+    name: 'signature-app',
+    icon: 'React',
+  },
+  {
+    id: 10,
+
+    img: 'BirthDay-Reminder.PNG',
+    link: 'https://birth-day-reminder-remove-clear-reset.netlify.app/',
+    name: 'BirthDay-Reminder',
     icon: 'React',
   },
 ];

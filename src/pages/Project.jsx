@@ -1,4 +1,5 @@
 import { useGlobalContext } from '../GlobalContext';
+import React from 'react';
 
 const Project = () => {
   const { projects } = useGlobalContext();
