@@ -9,7 +9,9 @@ const Project = () => {
       <article className="container">
         <h1 className="section-title py-5 project">
           My Project = {projects.length}
+          <article className="title-underline"></article>
         </h1>
+
         <article className="card">
           {projects.map(project => {
             const { name, img, id, icon, link } = project;

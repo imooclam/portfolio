@@ -9,6 +9,7 @@ const About = () => {
     <section className="container">
       <article className="about__page">
         <h1>this is about me</h1>
+        <article className="title-underline"></article>
       </article>
 
       <h2> Brief ={'>'} </h2>
@@ -39,6 +40,10 @@ const About = () => {
         <li> Testing ={`>`} Jest || React Testing Library</li>
         <li> Serverless</li>
         <li> Desktop Applications in JavaScript ={`>`} Electron</li>
+        <li>
+          {' '}
+          Upgrade JavaScript ={`>`} <em>TypeScript</em>{' '}
+        </li>
       </ul>
       <article className="contact">
         <h3> Contact Me on </h3>
