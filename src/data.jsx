@@ -1,5 +1,13 @@
 import React from 'react';
+import { FcProcess } from 'react-icons/fc';
 export const data = [
+  {
+    id: 0,
+    img: 'Comfy.PNG',
+    link: 'https://ecomy-app.netlify.app/',
+    name: 'comfy',
+    icon: <FcProcess className="process" />,
+  },
   {
     id: 1,
     img: 'omifood-app.png',
@@ -11,7 +19,7 @@ export const data = [
     id: 2,
     img: 'immer.PNG',
     link: 'https://counter-immer.netlify.app/',
-    name: 'Counter (Reduce && immer)',
+    name: 'Counter (immer)',
     icon: 'React',
   },
   {
