@@ -1,5 +1,8 @@
+import { nanoid } from '@reduxjs/toolkit';
 import React from 'react';
+
 import { FcProcess } from 'react-icons/fc';
+import { TbBrandRedux } from 'react-icons/tb';
 export const data = [
   {
     id: 0,
@@ -7,6 +10,13 @@ export const data = [
     link: 'https://ecomy-app.netlify.app/',
     name: 'comfy',
     icon: <FcProcess className="process" />,
+  },
+  {
+    id: nanoid(),
+    img: 'CartRedux.PNG',
+    link: 'cart-redux-nanoid.netlify.app',
+    name: 'Cart',
+    icon: <TbBrandRedux />,
   },
   {
     id: 1,
