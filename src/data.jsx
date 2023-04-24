@@ -13,6 +13,13 @@ export const data = [
   },
   {
     id: nanoid(),
+    img: 'movie.PNG',
+    link: 'https://movie-lala-project.netlify.app/',
+    name: 'Movie-Search',
+    icon: <TbBrandRedux />,
+  },
+  {
+    id: nanoid(),
     img: 'CartRedux.PNG',
     link: 'cart-redux-nanoid.netlify.app',
     name: 'Cart',
