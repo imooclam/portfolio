@@ -22,7 +22,7 @@ export const data = [
     id: nanoid(),
     img: 'JobTrack.PNG',
     link: 'https://redux-toolkit-jobster.netlify.app/landing',
-    name: 'JobTrack',
+    name: 'Job-Track',
     icon: <TbBrandRedux />,
   },
   {
