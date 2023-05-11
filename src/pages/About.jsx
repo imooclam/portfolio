@@ -17,7 +17,7 @@ const About = () => {
       <ul className="menu">
         <strong>
           {' '}
-          Hi 👋 My name is Mahmoud Zyada Abbas iam frontend Developer from 2020
+          Hi 👋 My name is Mahmoud Zyada Abbas iam frontend Developer since 2020
         </strong>
         <li>Skills</li>
         <li> - Html Css JavaScript</li>

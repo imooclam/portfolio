@@ -4,12 +4,26 @@ import React from 'react';
 import { FcProcess } from 'react-icons/fc';
 import { TbBrandRedux } from 'react-icons/tb';
 export const data = [
+  // {
+  //   id: 0,
+  //   img: 'Comfy.PNG',
+  //   link: 'https://ecomy-app.netlify.app/',
+  //   name: 'comfy',
+  //   icon: <FcProcess className="process" />,
+  // },
   {
-    id: 0,
+    id: nanoid(),
     img: 'Comfy.PNG',
-    link: 'https://ecomy-app.netlify.app/',
+    link: 'https://react-course-comfy-sloth-store.netlify.app/',
     name: 'comfy',
-    icon: <FcProcess className="process" />,
+    icon: 'React',
+  },
+  {
+    id: nanoid(),
+    img: 'JobTrack.PNG',
+    link: 'https://redux-toolkit-jobster.netlify.app/landing',
+    name: 'JobTrack',
+    icon: <TbBrandRedux />,
   },
   {
     id: nanoid(),
